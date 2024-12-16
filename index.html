@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+          <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars navbar-icon"></i></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="https://awoiaf.westeros.org/images/thumb/2/2d/House_Baratheon.svg/48px-House_Baratheon.svg.png" alt="">
+              </a>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="#about-me">Myself</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="#">Tutorials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="#">Feedback</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="#">Contact me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+              <section id="banner">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="fw-bolder px-5 py-1 mb-5">Learn something new</h1>
+                        <a href="#tutorial" title="Go to Tutorial section">
+                          <button class="banner-btn"><i class="fas fa-play me-2"></i>Tutorials</button>
+                        </a>
+                        <a href="https://www.youtube.com/@alokmondol3695" target="_blank" title="Visit my youtube channel">
+                          <button class="banner-btn"><i class="fab fa-youtube me-2"></i>Subscribe</button>
+                        </a>
+                    </div>
+                </div>
+              </section>
+        </header>
+
+
+        <main>
+
+          <!-- features starts here  -->
+          <section id="features" class="text-center text-white">
+             <div class="row">
+                <div class="col-lg-4 d-block d-lg-flex">
+                  <div class="features-col">
+                    <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                    <h5 class="fw-bolder">Free to use</h5>
+                    <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus cumque magni eveniet nulla repellendus magnam?</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-block d-lg-flex">
+                  <div class="features-col">
+                    <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                    <h5 class="fw-bolder">Free to use</h5>
+                    <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus cumque magni eveniet nulla repellendus magnam?</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-block d-lg-flex">
+                  <div class="features-col">
+                    <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                    <h5 class="fw-bolder">Free to use</h5>
+                    <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+             </div>
+          </section>
+          <!-- features ends here  -->
+
+
+          <!-- about me starts here  -->
+           <section id="about-me" class="text-dark">
+
+            <!-- section-title  -->
+            <div class="section-title text-center mb-5">
+              <h3 class="fw-bolder">About me</h3>
+              <hr class="hr-style">
+            </div>
+
+            <div class="row mb-lg-0 mb-5">
+              <div class="col-lg-5">
+                <div class="basic-desc text-lg-start text-center">
+                  <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                  <h5 class="fw-bolder">Personal Info</h5>
+                  <p><span class="fw-bold">Name: </span>Alok Mondol</p>
+                  <p><span class="fw-bold">Profession : </span>Computer Science student</p>
+                  <p><span class="fw-bold">Current address : </span>Rajshahi, Bangladesh</p>
+                  <p><span class="fw-bold">Website: </span><a href="https://aquietwolf.github.io/personal-site/" target="_blank">thequietwolf.com</a></p>
+                  <p><a href="https://aquietwolf.github.io/personal-site/" target="_blank"><button class="btn btn-outline-dark">Download CV</button></a></p>
+                </div>
+              </div>
+              <div class="col-lg-7"></div>
+            </div>
+
+            <div class="row mb-lg-0 mb-5">
+              <div class="col-lg-7"></div>
+              <div class="col-lg-5">
+                <div class="achieve-desc text-center text-lg-start">
+                  <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                  <h5 class="fw-bolder">Achievements</h5>
+                  <p><span class="fw-bold">Personal life achievement: </span>Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing</p>
+                  <p><span class="fw-bold">Student life achievement: </span>Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing</p>
+                  <p><span class="fw-bold">Career achievement: </span>Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-lg-0 mb-5">
+              <div class="col-lg-5">
+                <div class="achieve-desc text-center text-lg-start">
+                  <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                  <h5 class="fw-bolder">Achievements</h5>
+                  <p><span class="fw-bold">Personal life achievement: </span>Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing</p>
+                  <p><span class="fw-bold">Student life achievement: </span>Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing</p>
+                  <p><span class="fw-bold">Career achievement: </span>Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing</p>
+                </div>
+              </div>
+              <div class="col-lg-7"></div>
+            </div>
+
+            <div class="row mb-lg-0 mb-5">
+              <div class="col-lg-7"></div>
+              <div class="col-lg-5">
+                <div class="basic-desc text-lg-start text-center">
+                  <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                  <h5 class="fw-bolder">Personal Info</h5>
+                  <p><span class="fw-bold">Name: </span>Alok Mondol</p>
+                  <p><span class="fw-bold">Profession : </span>Computer Science student</p>
+                  <p><span class="fw-bold">Current address : </span>Rajshahi, Bangladesh</p>
+                  <p><span class="fw-bold">Website: </span><a href="https://aquietwolf.github.io/personal-site/" target="_blank">thequietwolf.com</a></p>
+                  <p><a href="https://aquietwolf.github.io/personal-site/" target="_blank"><button class="btn btn-outline-dark">Download CV</button></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="skill-desc text-center text-lg-start">
+                  <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                  <div class="d-sm-flex flex-sm-column">
+                    <h5 class="fw-bolder">Skills</h5>
+                  <table>
+                    <tr>
+                      <td>HTML</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Javascript</td>
+                      <td>
+                        <span class="star">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>C++</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Android studio</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                  </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7"></div>
+            </div>
+
+           </section>
+          <!-- about me ends here  -->
+
+
+
+          <!-- tutorial starts  -->
+           <section id="tutorial">
+              <div class="section-title text-center mb-5">
+                <h3 class="fw-bolder">Tutorial</h3>
+                <hr class="hr-style">
+              </div>
+
+              <div class="row text-center mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row text-center mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row text-center mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg?w=1200&ssl=1" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title fw-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+           </section>
+          <!-- tutorial ends  -->
+
+
+          <!-- feedback starts here  -->
+           <section id="feedback">
+            <div class="section-title text-center text-light mb-5">
+              <h3 class="fw-bolder">Feedback</h3>
+              <hr class="hr-style">
+            </div>
+            <div class="row">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat et numquam magni dolorem nemo voluptas aperiam eos mollitia distinctio.</p>
+                    <img class="mb-3" style="width: 280px; height: 400px;" src="https://awoiaf.westeros.org/images/7/73/AEGON_I.jpg" alt="">
+                    <h6 class="mb-5 fw-bolder">Aegon I Targaryen</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat et numquam magni dolorem nemo voluptas aperiam eos mollitia distinctio.</p>
+                    <img class="mb-3" style="width: 280px; height: 400px;" src="https://awoiaf.westeros.org/images/d/d3/AENYS_I.jpg" alt="">
+                    <h6 class="mb-5 fw-bolder">Aenys I Targaryen</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat et numquam magni dolorem nemo voluptas aperiam eos mollitia distinctio.</p>
+                    <img class="mb-3" style="width: 280px; height: 400px;" src="https://awoiaf.westeros.org/images/e/e3/MAEGOR_I.jpg" alt="">
+                    <h6 class="mb-5 fw-bolder">Maegor I Targaryen</h6>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+           </section>
+          <!-- feedback ends here  -->
+
+
+          <!-- contact me starts here  -->
+           <section id="contact">
+            <div class="section-title text-center text-light">
+              <h3 class="fw-bolder">Contact me</h3>
+              <hr class="hr-style">
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <form action="mailto:akmndljr@gmail.com" method="post" enctype="text/plain" class="was-validated">
+                  <div class="form-group">
+                    <label for="fullname">Fullname</label>
+                    <input type="text" class="form-control" name="fullname" required>
+                    <div class="valid-feedback">valid</div>
+                    <div class="invalid-feedback">Enter full name</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea required style="resize: none;" name="message" id="message" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group text-center">
+                    <input type="submit" class="btn btn-success me-5" value="submit">
+                    <input type="reset" class="btn btn-success" value="reset">
+                  </div>
+                </form>
+              </div>
+            </div>
+           </section>
+          <!-- contact me ends here  -->
+
+        </main>
+
+
+        <footer class="bg-dark text-warning">
+
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 text-sm-center mb-sm-3">
+              <p class="mt-3 small mb-0">&copy;created by tHeQuiEtWoLf</p>
+            </div>
+            <div class="col-lg-6 text-lg-end col-sm-12 text-sm-center">
+              <a href="https://codeforces.com/profile/tHeQuiEtWoLf" target="_blank">
+                <img class="codeforces-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAjVBMVEVHcEwcmdQcmdQcmdQak9Ebl9IbldEZktD82XX82XT812/81m781WoYjs370mHCHCTNWC370mEXi8u7HSTAHCS+HCS8HSUXicu7HST5z1e7HST4zFD4y022HSX4yk23HSUWhcgVhMf3xkGzHib2xDwUgcb2xkL1wzkVgcawHyb2xD31wzkUf8QUgMWxHiamUe3qAAAAL3RSTlMATmz/q////0luJv/u/4glD/+rxP/ibf+R///wieD///+s//+N/7phkrbL8iDY8hvaMEAAAADLSURBVHgBxMm1AcMAEANAhZmZmWPvP16kN1Odaw9/VipTqeAqJn+rlUqNqvlZk3pR1qUgOY1GI5HNFrWVnFS2OtLletmLZ5dFfWVPLAc0DHKk7NmOgeFkSrOBckTMscpyzqIJuqpYLphLL2eWq9XKciF+rtfrGTYs2jJVfq5lh43dPpl2ByVr7+VRTkrWQcnxU+WlKsoz8xSl3UV5lquft5uSQ0yVnzdRqpR3Lx/A82aewNzLF4bvD10BfB2d8wWwdGkyRIRNvxGdVgHKfyOSwlpokQAAAABJRU5ErkJggg==" alt="">
+              </a>
+            </div>
+          </div>
+
+        </footer>
+
+    </div>
+
+
+
+    <!-- bootstap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> -->
+</body>
+</html>
